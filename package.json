@@ -1,0 +1,32 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000i\u0000n\u0000s\u0000t\u0000a\u0000g\u0000r\u0000a\u0000m\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm run start\" \"cd server && npm run watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanhu96/Instagram-Garage-Sale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanhu96/Instagram-Garage-Sale/issues"
+  },
+  "homepage": "https://github.com/evanhu96/Instagram-Garage-Sale#readme",
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "apollo-upload-client": "^17.0.0",
+    "bcrypt": "^5.1.0",
+    "concurrently": "^8.0.1",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.3.0"
+  }
+}

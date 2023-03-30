@@ -1,23 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Routes } from "react-router-dom";
-import InstaCard from "./components/InstaCard";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Login from "./pages/Login";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import { Route } from "react-router-dom";
-import Navigation from "./components/Navigation";
-import { Stack } from "react-bootstrap";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { createUploadLink } from "apollo-upload-client";
-import { BrowserRouter } from "react-router-dom";
-import Signup from "./pages/Signup";
-import Post from "./pages/Post";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Navigation from "./components/Navigation";
 import FriendFinder from "./pages/FriendFinder";
 import FriendList from "./pages/FriendList";
+import Login from "./pages/Login";
+import Post from "./pages/Post";
 import Profile from "./pages/Profile";
+import Signup from "./pages/Signup";
 import Timeline from "./pages/Timeline";
 
 const client = new ApolloClient({
