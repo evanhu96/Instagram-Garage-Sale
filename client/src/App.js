@@ -17,7 +17,7 @@ import Timeline from "./pages/Timeline";
 
 const client = new ApolloClient({
   link: createUploadLink({
-    uri: "http://localhost:3001/graphql",
+    uri: "/graphql",
   }),
   cache: new InMemoryCache(),
 });
